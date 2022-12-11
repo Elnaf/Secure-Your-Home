@@ -30,7 +30,7 @@ $email_message = (new Swift_Message())
 // create the mailer instance
 $transport = new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl');
 $transport->setUsername('secureyourhome.isep@gmail.com');
-$transport->setPassword('Isep@2022');
+$transport->setPassword('rakmwzophhzztsjo');
 $mailer = new Swift_Mailer($transport);
 
 // send the email
