@@ -74,3 +74,17 @@ sdTime time,
 Reading decimal(2,2),
 sID integer references Sensor(sID)
 );
+CREATE TABLE Apartment(
+  ApartID INTEGER AUTO_INCREMENT PRIMARY KEY,
+Firstname VARCHAR(100),
+Lastname VARCHAR(20 ),
+  UserID INTEGER REFERENCES User(UserID),
+ AddressID INTEGER References Address(AdrressID)
+); 
+
+CREATE TABLE Room (
+  RoomID INTEGER AUTO_INCREMENT PRIMARY KEY,
+DeviceType VARCHAR(100),
+  ApartID INTEGER REFERENCES Apartment(ApartID)
+  );
+ 
