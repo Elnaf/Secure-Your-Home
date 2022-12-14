@@ -55,7 +55,7 @@ timeDeactivated time,
 deviceID integer references Device(deviceID),
 userID integer references User(userID)
 );
-create table Device(
+create table if not exists Device(
 deviceID integer AUTO_INCREMENT primary key,
 deviceName varchar(100),
 deviceType varchar(100),
@@ -74,7 +74,7 @@ sdTime time,
 Reading decimal(2,2),
 sID integer references Sensor(sID)
 );
-CREATE TABLE Apartment(
+CREATE TABLE if not exists Apartment(
   ApartID INTEGER AUTO_INCREMENT PRIMARY KEY,
 Firstname VARCHAR(100),
 Lastname VARCHAR(20 ),
@@ -82,14 +82,14 @@ Lastname VARCHAR(20 ),
  AddressID INTEGER References Address(AdrressID)
 ); 
 
-CREATE TABLE Room (
+CREATE TABLE if not exists Room (
   RoomID INTEGER AUTO_INCREMENT PRIMARY KEY,
 DeviceType VARCHAR(100),
   ApartID INTEGER REFERENCES Apartment(ApartID)
   );
  
 CREATE TABLE IF NOT EXISTS contactus (
-  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL,
   message VARCHAR(500) NOT NULL
