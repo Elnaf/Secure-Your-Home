@@ -24,7 +24,7 @@
   </div>
 
   <h2 style="text-align:center">
-    <font color="white">Our Team</font>
+    Our Team
   </h2>
   <div class="row">
     <div class="column">
@@ -32,58 +32,13 @@
         <img src="" alt="" style="width:100%">
         <div class="container">
           <h2>
-            <font color="white"> Leigha Ifiyemi</font>
+            Leigha Ifiyemi
           </h2>
           <p class="title">Team Member</p>
           <p>
-            <font color="white"><a href="mailto:leigha.ifiyemi@gmail.com"><font color="white">leigha.ifiyemi@gmail.com</font></a></font>
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="" alt="" style="width:100%">
-        <div class="container">
-          <h2>
-            <font color="white">Abubakar Nafaty</font>
-          </h2>
-          <p class="title">Team Member</p>
-          <p>
-            <font color="white"><a href="mailto:Elnafaty50@gmail.com">Elnafaty50@gmail.com</font></a></font>
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="" alt="" style="width:100%">
-        <div class="container">
-          <h2>
-            <font color="white">Asmau Aminu</font>
-          </h2>
-          <p class="title">Team Member</p>
-          <p>
-            <font color="white"><a href="mailto:aminu52@yahoo.com">aminu52@yahoo.com"><font color="whitasmau.aminu52@yahoo.com</font></a></font>
-          </p>
-
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="" alt="" style="width:100%">
-        <div class="container">
-          <h2>
-            <font color="white">Buhari Aliyu</font>
-          </h2>
-          <p class="title">Team Member</p>
-          <p>
-            <font color="white"><a href="buharialiyujhn@gmail.com">buharialiyujhn@gmail.com</a></font>
+            <a href="mailto:leigha.ifiyemi@gmail.com">
+              leigha.ifiyemi@gmail.com
+            </a>
           </p>
         </div>
       </div>
@@ -94,14 +49,12 @@
         <img src="" alt="" style="width:100%">
         <div class="container">
           <h2>
-            <font color="white">Sakshi Kumari</font>
+            Abubakar Nafaty
           </h2>
           <p class="title">Team Member</p>
-
           <p>
-            <font color="white"><a href="saku62768@eleve.isep.fr">saku62768@eleve.isep.fr</a></font>
+            <a href="mailto:Elnafaty50@gmail.com">Elnafaty50@gmail.com</a>
           </p>
-
         </div>
       </div>
     </div>
@@ -111,14 +64,27 @@
         <img src="" alt="" style="width:100%">
         <div class="container">
           <h2>
-            <font color="white">Ravi Kiran PP</font>
+            Asmau Aminu
           </h2>
           <p class="title">Team Member</p>
-
           <p>
-            <font color="white"><a href="rkpp62781@eleve.isep.fr">rkpp62781@eleve.isep.fr</a></font>
+            <a href="mailto:aminu52@yahoo.com">aminu52@yahoo.com</a>
           </p>
+        </div>
+      </div>
+    </div>
 
+    <div class=" column">
+      <div class="card">
+        <img src="" alt="" style="width:100%">
+        <div class="container">
+          <h2>
+            Buhari Aliyu
+          </h2>
+          <p class="title">Team Member</p>
+          <p>
+            <a href="buharialiyujhn@gmail.com">buharialiyujhn@gmail.com</a>
+          </p>
         </div>
       </div>
     </div>
@@ -127,22 +93,46 @@
       <div class="card">
         <img src="" alt="" style="width:100%">
         <div class="container">
-          <font color="white"></font>
           <h2>
-            <font color="white">Yuvasri Balu</font>
+            Sakshi Kumari
           </h2>
           <p class="title">Team Member</p>
-
           <p>
-            <font color="white"><a href="yuba62780@eleve.isep.fr">yuba62780@eleve.isep.fr</a></font>
+            <a href="saku62768@eleve.isep.fr">saku62768@eleve.isep.fr</a>
           </p>
-
         </div>
       </div>
     </div>
 
+    <div class="column">
+      <div class="card">
+        <img src="" alt="" style="width:100%">
+        <div class="container">
+          <h2>
+            Ravi Kiran PP
+          </h2>
+          <p class="title">Team Member</p>
+          <p>
+            <a href="rkpp62781@eleve.isep.fr">rkpp62781@eleve.isep.fr</a>
+          </p>
+        </div>
+      </div>
+    </div>
 
-
+    <div class="column">
+      <div class="card">
+        <img src="" alt="" style="width:100%">
+        <div class="container">
+          <h2>
+            Yuvasri Balu
+          </h2>
+          <p class="title">Team Member</p>
+          <p>
+            <a href="yuba62780@eleve.isep.fr">yuba62780@eleve.isep.fr</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

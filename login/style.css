@@ -47,6 +47,7 @@
 }
 .loginbox .input-box input[type="submit"]{
   background-color: rgb(194, 7, 122);
+  color: #fff;
   font-size: 17px;
   border-radius: 5px;
   cursor: pointer;
