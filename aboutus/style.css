@@ -1,10 +1,4 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-image:url("About Us BG.jpeg");
-  }
-  
-  html {
+html {
     box-sizing: border-box;
   }
   
@@ -71,4 +65,7 @@ body {
     h2{
         color:white;
     }
+  }
+  a{
+    color: gold;
   }

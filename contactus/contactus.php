@@ -1,6 +1,6 @@
 <?php
 // load the Swift Mailer library
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 $name = $_POST['name'];
 $email = $_POST['email'];

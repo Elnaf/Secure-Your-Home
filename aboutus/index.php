@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
-  <link rel="stylesheet" href="About us.css">
+  <link rel="stylesheet" href="/aboutus/style.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
           </h2>
           <p class="title">Team Member</p>
           <p>
-            <font color="white">leigha.ifiyemi@gmail.com</font>
+            <font color="white"><a href="mailto:leigha.ifiyemi@gmail.com"><font color="white">leigha.ifiyemi@gmail.com</font></a></font>
           </p>
 
         </div>
@@ -52,7 +52,7 @@
           </h2>
           <p class="title">Team Member</p>
           <p>
-            <font color="white">Elnafaty50@gmail.com</font>
+            <font color="white"><a href="mailto:Elnafaty50@gmail.com">Elnafaty50@gmail.com</font></a></font>
           </p>
 
         </div>
@@ -68,7 +68,7 @@
           </h2>
           <p class="title">Team Member</p>
           <p>
-            <font color="white">asmau.aminu52@yahoo.com</font>
+            <font color="white"><a href="mailto:aminu52@yahoo.com">aminu52@yahoo.com"><font color="whitasmau.aminu52@yahoo.com</font></a></font>
           </p>
 
         </div>
@@ -83,7 +83,7 @@
           </h2>
           <p class="title">Team Member</p>
           <p>
-            <font color="white">buharialiyujhn@gmail.com</font>
+            <font color="white"><a href="buharialiyujhn@gmail.com">buharialiyujhn@gmail.com</a></font>
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@
           <p class="title">Team Member</p>
 
           <p>
-            <font color="white">saku62768@eleve.isep.fr</font>
+            <font color="white"><a href="saku62768@eleve.isep.fr">saku62768@eleve.isep.fr</a></font>
           </p>
 
         </div>
@@ -116,7 +116,7 @@
           <p class="title">Team Member</p>
 
           <p>
-            <font color="white">rkpp62781@eleve.isep.com</font>
+            <font color="white"><a href="rkpp62781@eleve.isep.fr">rkpp62781@eleve.isep.fr</a></font>
           </p>
 
         </div>
@@ -134,7 +134,7 @@
           <p class="title">Team Member</p>
 
           <p>
-            <font color="white">yuba62780@eleve.isep.com</font>
+            <font color="white"><a href="yuba62780@eleve.isep.fr">yuba62780@eleve.isep.fr</a></font>
           </p>
 
         </div>
