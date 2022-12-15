@@ -20,14 +20,16 @@ body {
   }
   
   .card {
-    
     box-shadow: 0 4px 8px 0 rgba(243, 237, 237, 0.2);
     margin: 8px;
   }
   
+  .center {
+    text-align: center;
+  }
+
   .about-section {
     padding: 50px;
-    text-align: center;
     color: rgb(241, 246, 248);
   }
   
