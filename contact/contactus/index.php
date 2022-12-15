@@ -48,7 +48,7 @@
           
         </div>
         <div class="button">
-          <input type="button" value="Send Now" onclick="submit_contact_us_form()">
+          <input type="button" value="Send Now" onclick="submitform()">
         </div>
       </form>
     </div>
