@@ -13,7 +13,7 @@
     }
 
     //Load Composer's autoloader
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
 
     include 'config.php';
     $msg = "";
