@@ -87,11 +87,11 @@
                         <form action="" method="post">
                             <input type="email" class="emailAddress" name="emailAddress" placeholder="Enter Your Email" required>
                             <input type="password" class="password" name="password" placeholder="Enter Your Password" style="margin-bottom: 2px;" required>
-                            <p><a href="forgot-password.php" style="margin-bottom: 15px; display: block; text-align: right;">Forgot Password?</a></p>
+                            <p><a onclick="$('#main-content').load('/signup/forgot-password.php')" style="margin-bottom: 15px; display: block; text-align: right;">Forgot Password?</a></p>
                             <button name="submit" name="submit" class="btn" type="submit">Login</button>
                         </form>
                         <div class="social-icons">
-                            <p>Create Account! <a href="register.php">Register</a>.</p>
+                            <p>Create Account! <a onclick="$('#main-content').load('/signup/register.php')">Register</a>.</p>
                         </div>
                     </div>
                 </div>
