@@ -9,7 +9,7 @@ function loadPage(page) {
     xhttp.send();
 }
 
-function submit_contact_us_form() {
+function submitform() {
     const form = document.querySelector("form");
     const formData = new FormData(form);
     const xhr = new XMLHttpRequest();
