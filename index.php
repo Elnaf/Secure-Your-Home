@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Secure Your Home</h1>
+    <div id="logo"><img src="/images/logo.jpg" width="190px" height="190px"/></div>
   </header>
   <nav>
     <ul>
@@ -23,7 +23,6 @@
       Loading...
     </div>
   </main>
-  
   <script>
     // Load the home page by default
     loadPage('/home/index.php');
