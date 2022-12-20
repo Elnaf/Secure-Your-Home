@@ -1,27 +1,21 @@
-function loadPage(page) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("main-content").innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", page, true);
-    xhttp.send();
-}
+function submit_contactus_form() {
+  const name = $("#name").val();
+  const email = $("#email").val();
+  const message = $("#message").val();
 
-function submitform() {
-    const form = document.querySelector("form");
-    const formData = new FormData(form);
-    const xhr = new XMLHttpRequest();
-    xhr.open("POST", "/contactus/contactus.php");
-    xhr.send(formData);
-    xhr.onload = () => {
-      if (xhr.status === 200) {
-        alert("Message sent successfully");
-        form.reset();
-        window.location.href = "/";
+  $.post(
+    "/contactus/contactus.php",
+    { name: name, email: email, message: message },
+    function (data) {
+      if (data === "Success") {
+        alert("Your message was sent successfully!");
+        $("#name").val("");
+        $("#email").val("");
+        $("#message").val("");
+        $("#main-content").load("/home/index.php");
       } else {
-        alert("Something went wrong");
+        alert("There was an error sending your message. Please try again.");
       }
-    };
-  };
+    }
+  );
+}

@@ -12,11 +12,11 @@
   </header>
   <nav>
     <ul>
-      <li><a href="#" onclick="loadPage('/home/index.php')">Home</a></li>
-      <li><a href="#" onclick="loadPage('/aboutus/index.php')">About Us</a></li>
-      <li><a href="#" onclick="loadPage('/signup/index.php')">Sign Up</a></li>
-      <li><a href="#" onclick="loadPage('/login/index.php')">Login</a></li>
-      <li><a href="#" onclick="loadPage('/contactus/index.php')">Contact Us</a></li>
+      <li><a onclick="$('#main-content').load('/home/index.php')">Home</a></li>
+      <li><a onclick="$('#main-content').load('/aboutus/index.php')">About Us</a></li>
+      <li><a onclick="$('#main-content').load('/signup/index.php')">Sign Up</a></li>
+      <li><a onclick="$('#main-content').load('/login/index.php')">Login</a></li>
+      <li><a onclick="$('#main-content').load('/contactus/index.php')">Contact Us</a></li>
     </ul>
   </nav>
   <main>
@@ -26,7 +26,7 @@
   </main>
   <script>
     // Load the home page by default
-    loadPage('/home/index.php');
+    $('#main-content').load('/home/index.php');
   </script>
 </body>
 </html>

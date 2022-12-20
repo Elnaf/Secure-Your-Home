@@ -31,16 +31,16 @@
           page. It is our pleasure to help you.</p>
         <form>
           <div class="input-box">
-            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
           </div>
           <div class="input-box">
-            <input type="text" name="email" placeholder="Enter your email">
+            <input type="text" name="email" id="email" placeholder="Enter your email">
           </div>
           <div class="input-box message-box">
-            <input type="text" name="message" placeholder="Message">
+            <input type="text" name="message" id="message" placeholder="Message">
           </div>
           <div class="button">
-            <input type="button" value="Send Now" onclick="submitform()">
+            <input type="button" value="Send Now" onclick="submit_contactus_form()">
           </div>
         </form>
       </div>
