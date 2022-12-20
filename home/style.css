@@ -1,0 +1,35 @@
+#lhs {
+	background-color: #727070;
+	border: 0px solid;
+	width: 20%;
+	height: 100vh;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#lhs h4 {
+	font-size: 26;
+	font-family: cursive;
+	color: white;
+}
+
+#lhs p {
+	font-size: 18;
+	font-family: cursive;
+	color: white;
+}
+
+#rhs {
+	border: 0px solid;
+	width: 75%;
+	height: 100vh;
+	display: inline-block;
+}
+
+#rhs h1 {
+	text-size-adjust: 32;
+	margin-top: 60px;
+	margin-left: 120px;
+	color: white;
+}

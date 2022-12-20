@@ -44,7 +44,7 @@ if (isset($_GET['reset'])) {
     <link href="//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!--/Style-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/signup/css/style.css" type="text/css" media="all" />
     <!--//Style-CSS -->
 
     <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
@@ -64,7 +64,7 @@ if (isset($_GET['reset'])) {
                     </div>
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
-                            <img src="images/image3.svg" alt="">
+                            <img src="/signup/images/image3.svg" alt="">
                         </div>
                     </div>
                     <div class="content-wthree">
@@ -87,7 +87,6 @@ if (isset($_GET['reset'])) {
     </section>
     <!-- //form section start -->
 
-    <script src="js/jquery.min.js"></script>
     <script>
         $(document).ready(function (c) {
             $('.alert-close').on('click', function (c) {

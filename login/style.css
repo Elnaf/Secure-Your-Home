@@ -1,0 +1,55 @@
+.body {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+}
+.loginbox {
+  background: rgb(247, 241, 241);
+  color: black;
+  max-width: 350px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  place-items: center;
+}
+.loginbox form .title {
+  font-size: 30px;
+  font-weight: 6000;
+  margin: 20px 0 10px 0;
+}
+.loginbox form .input-box {
+  width: 100%;
+  height: 45px;
+  margin-top: 25px;
+  position: relative;
+}
+.loginbox form .input-box input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 16px;
+  border: none;
+}
+.loginbox form .button {
+  margin: 40px 0 20px 0;
+}
+.loginbox .input-box input[type="submit"] {
+  background-color: rgb(194, 7, 122);
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginbox .input-box input[type="submit"]:hover {
+  background: linear-gradient(to left, #99004d 0%, #ff0080 100%);
+}
+.loginbox form a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #3a7bd19d;
+}
+.loginbox form a:hover {
+  color: #99004d;
+}
