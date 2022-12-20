@@ -19,7 +19,7 @@
     </head>
 
     <body>
-        <div id="logo"><img src="images/logo.jpeg" width="190px" height="190px"/></a>
+        <div id="logo"><img src="/images/logo.jpg" width="190px" height="190px"/></a>
         <br>
         <div id="header">
      
@@ -43,7 +43,7 @@
             <br>
             <div id="rhs">
                 <div id="background">
-                <img src="images/bg.jpg" width="1640px" height="1000px"/>
+                <img src="/images/bg.jpg" width="1640px" height="1000px"/>
                 <b>
                 <h1>Welcome to </h1>
                 <h1>Secure Your Home</h1>

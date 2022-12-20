@@ -1,12 +1,12 @@
 <html>
 <head>
     <title>Manage Apartment</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/apartment/style.css">
 </head>
 <body>
      <div class="banner">
      <div class="navbar">
-        <image src="Logo.jpg" class="logo">
+        <image src="/images/logo.jpg" class="logo">
            <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Sign up</a></li>

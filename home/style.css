@@ -70,7 +70,7 @@ body{
 }
 #rhs{
     float: right;
-	/*background-image:url("images/bg.jpg");*/
+	/*background-image:url("/images/bg.jpg");*/
 	border:0px solid;
 	width: 1307px;
 	height:1020px;
