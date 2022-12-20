@@ -3,6 +3,7 @@
 <head>
   <title>Secure Your Home</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </head>
 <body>
