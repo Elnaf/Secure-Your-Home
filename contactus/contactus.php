@@ -8,11 +8,11 @@ $message = $_POST['message'];
 
 // create a new MySQL connection
 $connection = new mysqli(
-  'containers-us-west-99.railway.app',
+  'localhost',
   'root',
-  'UgwkO8dY5yxWcZcxiBSm',
-  'railway',
-  '6913'
+  '',
+  'secure_home',
+  '3306'
 );
 
 // check if the connection was successful
