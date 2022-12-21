@@ -14,7 +14,7 @@
     <ul>
       <li><a onclick="$('#main-content').load('/home/index.php')">Home</a></li>
       <li><a onclick="$('#main-content').load('/aboutus/index.php')">About Us</a></li>
-      <li><a onclick="$('#main-content').load('/signup/index.php')">Sign Up</a></li>
+      <li><a onclick="$('#main-content').load('/signup/register.php')">Sign Up</a></li>
       <li><a onclick="$('#main-content').load('/login/index.php')">Login</a></li>
       <li><a onclick="$('#main-content').load('/contactus/index.php')">Contact Us</a></li>
     </ul>
