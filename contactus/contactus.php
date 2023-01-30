@@ -22,15 +22,15 @@ if ($connection->connect_error) {
 
 // create the email message
 $email_message = (new Swift_Message())
-  ->setFrom(['secureyourhome.isep@gmail.com' => 'Secure Your Home'])
-  ->setTo(['secureyourhome.isep@gmail.com' => 'Secure Your Home'])
+  ->setFrom(['yuvasriravi.b2017@gmail.com' => 'Secure Your Home'])
+  ->setTo(['yuvasriravi.b2017@gmail.com' => 'Secure Your Home'])
   ->setSubject('Contact Form Submission')
   ->setBody(sprintf("Name: %s\nEmail: %s\nMessage: %s", $name, $email, $message));
 
 // create the mailer instance
 $transport = new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl');
-$transport->setUsername('secureyourhome.isep@gmail.com');
-$transport->setPassword('rakmwzophhzztsjo');
+$transport->setUsername('yuvasriravi.b2017@gmail.com');
+$transport->setPassword('qukwgpfuidkupfic');
 $mailer = new Swift_Mailer($transport);
 
 // send the email
