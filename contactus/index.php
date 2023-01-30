@@ -21,7 +21,7 @@
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div>
-          <div class="text-one">secureyourhome.isep@gmail.com</div>
+          <div class="text-one">yuvasriravi.b2019@gmail.com</div>
           <div class="text-two"></div>
         </div>
       </div>
