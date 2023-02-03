@@ -5,12 +5,12 @@ if(isset($_POST['update']))
 {
   if (isset($_GET['update']))
   {
-   $ApartID = $_GET['update'];
+   $apartId= $_GET['update'];
   }
-$ApartmentName= legal_input($_POST['ApartmantName']);
-$NumberOfRooms = legal_input($_POST['Numberofrooms']);;
+$apartmentType= legal_input($_POST['apartmentType']);
+$numberOfRoom = legal_input($_POST['numberOfRoom']);;
 
-$result= update_apartment($conn, $ApartmentName,$NumberOfRooms,$ApartID);
+$result= update_apartment($conn, $apartmentType,$numberOfRoom,$apartId);
 if($result)
 {
 
@@ -114,18 +114,17 @@ button[type=submit]:hover {
         require_once'dbconfig.php';
         if (isset($_GET['update']))
         {
-         $ApartID = $_GET['update'];
+         $apartId = $_GET['update'];
         }
-           $tbl_user=$conn->query("SELECT * FROM `apartment` WHERE ApartID='$ApartID'");
+           $tbl_user=$conn->query("SELECT * FROM `apartment` WHERE apartId='$apartId'");
            $fetch=$tbl_user->fetch_array();
 
 
         ?>
-<input type="text" placeholder="Apartmant Name" name="ApartmantName" required value="<?php echo $fetch['ApartmentName'] ?>">
+<input type="text" placeholder="Apartmant Type" name="apartmentType" required value="<?php echo $fetch['apartmentType'] ?>">  
          
           <label>NumberOfRooms</label>
-<input type="city" placeholder="Number of rooms" name="Numberofrooms" required value="<?php echo $fetch['NumberOfRooms'] ?>">
-         
+<input type="city" placeholder="Number Of Room" name="numberOfRoom" required value="<?php echo $fetch['numberOfRoom']?>">
           <button type="submit" name="update">update</button>
     </form>
         </div>

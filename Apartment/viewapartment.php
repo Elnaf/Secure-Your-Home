@@ -1,46 +1,53 @@
-
+ 
 <?php
    require_once'apart_query.php';
+       session_start();
+    if (!isset($_SESSION['SESSION_EMAIL'])) {
+        header("Location: ../login/login.php");
+        die();
+    }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PHP CRUD Operations</title>
-<style>
-     table, td, th {  
-      border: 1px solid #ddd;
-      text-align: left;
-    }
-    
-    table {
-      border-collapse: collapse;
-      max-width: 100%;
-     width:90%;
-    }
-    .table-data{
-      
-      width:65%;
-      float: right;
-    }
-    th, td {
-      padding: 15px;
-    }
-body{
-    overflow-x: hidden;
-}
-* {
-  box-sizing: border-box;}
-</style>
+<title>view apartment</title>
+
+<link rel="stylesheet" href="viewapartment.css">
+<link rel="stylesheet" href="../Dashboard/Dashboard.css">
 </head>
 <body>
+
+<header id="top-header">
+		<div>
+		   <img id="top-logo" src="../Dashboard/IMAGES/logo.png" alt="site logo" width="100px;">
+		    
+		    <h1> SECURE YOUR HOME</h1>
+		    <h3> ... Smart Security</h3>  
+	    </div>
+	</header>
+<div class="menu-bar">
+	    <ul id="menulist">
+		    <li class="active"><a href="#"> <i class='fa fa-dashboard'></i>Dashboard</a></li>
+		    <li> <a href="viewApartmentInformation.php?id=<?=$user;?>"> <i class='fa fa-info'></i>Update Profile</a></li>
+		    <li> <a href="AddApartment.php"> <i class='fa fa-home'></i>Manage Apartment</a></li>
+			<li> <a href=""> <i class='fa fa-automobile'></i>Control Devices</a></li>
+		    <li><a href="#"> <i class='fa fa-sign-out'></i>       Sign Out</a></li>
+	        </ul>   
+	    
+    </div>
+
+
+
+
+
 <div class="table-data">
         <div class="list-title">
  <h2>View Apartment</h2>
           
             </div>
 
-    <table border="1">
+    <table id="table">
 
 
 
@@ -50,6 +57,7 @@ body{
             <th>Room Number</th>
             <th>Edit</th>
             <th>Delete</th>
+            <th>Room</th>
         </tr>
         
 <?php
@@ -65,17 +73,21 @@ body{
  
 <tr>
 <td><?php echo $i++; ?></td>
-<td><?php echo $fetch['ApartmentName']; ?></td>
-<td><?php echo $fetch['NumberOfRooms']; ?> </td>
-<td><a href="update.php?update=<?php echo $fetch['ApartID']; ?>">Edit</a></td>
-<td><a href="delete.php?delete=<?php echo $fetch['ApartID']; ?>">Delete</a></td>
-</tr> 
+<td><?php echo $fetch['apartmentType']; ?></td>
+<td><?php echo $fetch['numberOfRoom']; ?> </td>
+
+
+<td><a class="edit_btn" href="update.php?update=<?php echo $fetch['apartId']; ?>">Edit</a></td>
+<td><a class="del_btn" href="delete.php?delete=<?php echo $fetch['apartId']; ?>">Delete</a></td>
+<td><a class="add_btn" href="../Room/addroom.php?apartId=<?php echo $fetch['apartId']; ?>">Add</a></td>
+               
+               </tr>
  <?php
-               }
-               ?>
+ }
+?>
             
             
     </table>
     </div>
-</body
+</body>
 </html>

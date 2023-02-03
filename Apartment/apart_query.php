@@ -9,25 +9,25 @@ function display_apartment($conn)
     }
 }
 
-function get_apartment($conn, $ApartID)
+function get_apartment($conn, $apartId)
 {
-    $query=$conn->prepare("SELECT * FROM apartment WHERE ApartID ='$ApartID'") or die($this->conn->error);
+    $query=$conn->prepare("SELECT * FROM apartment WHERE apartID ='$apartId'") or die($this->conn->error);
     if($query->execute()){
         $result=$query->get_result();
         return $result;
     }
 }
-function delete_data($conn, $ApartID){
-    $query=$conn->prepare("DELETE FROM `apartment` WHERE ApartID=?") or die($this->conn->error);
-    $query->bind_param("i", $ApartID);
+function delete_data($conn, $apartId){
+    $query=$conn->prepare("DELETE FROM `apartment` WHERE apartId=?") or die($this->conn->error);
+    $query->bind_param("i", $apartId);
     if($query->execute()){
         
         return true;
     }
 }
-function update_apartment($conn,$ApartmentName,$NumberOfRooms, $ApartID){
-    $query=$conn->prepare("UPDATE `apartment` SET  ApartmentName=?, NumberOfRooms =? WHERE `ApartID`=?") or die($this->conn->error);
-    $query->bind_param("sii",$ApartmentName,$NumberOfRooms,$ApartID);
+function update_apartment($conn,$apartmentType,$numberOfRoom, $apartId){
+    $query=$conn->prepare("UPDATE `apartment` SET  apartmentType=?, numberOfRoom =? WHERE `apartId`=?") or die($this->conn->error);
+    $query->bind_param("sii",$apartmentType,$numberOfRoom,$apartId);
     
     if($query->execute()){
         
